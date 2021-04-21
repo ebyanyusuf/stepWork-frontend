@@ -15,7 +15,7 @@ const changeDate = (e) => {
 //Calendar Tag
  
  return (
-    <div className="wrapper">
+    <div className="calendar">
       <h1>My Meeting Calendar</h1>
       
           <Calendar 

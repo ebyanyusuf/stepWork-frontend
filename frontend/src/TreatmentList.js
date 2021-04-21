@@ -123,7 +123,7 @@ const items = [
   
 
 return(
-    <div>
+    <div className="card-image">
                    
                     
                         <CardView
