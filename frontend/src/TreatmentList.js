@@ -124,12 +124,12 @@ const items = [
 
 return(
     <div>
-                    {/* <h5 className="card-title">{treatment.name}</h5> */}
+                   
                     
                         <CardView
       items={items}
       activeColor='#000'
-      imageHeight='400px'
+      imageHeight='500px'
       imageWidth='600px'
     />
                     

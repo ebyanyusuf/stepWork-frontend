@@ -29,10 +29,11 @@ class MapContainer extends Component {
         googleMapsApiKey="AIzaSyAz_omTa5UZgVrndV6dcqr2jF2vhi9PzCM"
       >
       <div id="map">
+     
         <GoogleMap
           mapContainerStyle={containerStyle}
           center={center}
-          zoom={10}
+          zoom={7}
          
         >
         

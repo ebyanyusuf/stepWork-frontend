@@ -61,12 +61,11 @@ export default class SearchContainer extends Component {
    
         return (
             <div className="container mt-5">
-                
+                <div>
              <div className="form-group">
                     <label htmlFor="search-text">Search by Location:</label>
                     <input onChange={event => this.handleOnChange(event)} type="text" className="form-control" id="search-text" placeholder="Enter Your Location"/>
                 </div>
-                <div className="map">
 
                         <MapContainer />
                         </div>
