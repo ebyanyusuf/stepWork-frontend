@@ -59,11 +59,11 @@ state = {
                 </select>  */}
 
                 <TreatmentList />
-    
+{/*     
  {this.state.treatments.map(treatment => {
          return <TreatmentCard treatment={treatment} key={treatment.id} />
          })
-    } 
+    }  */}
          </div>
          </div>
 

@@ -11,6 +11,7 @@ const TreatmentCard = ({treatment}) => {
     return(
 
         <div>
+        {treatment.name}
         </div>
     )
 
