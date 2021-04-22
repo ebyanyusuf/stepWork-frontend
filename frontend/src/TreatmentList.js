@@ -124,9 +124,7 @@ const items = [
 
 return(
     <div className="card-image">
-                   
-                    
-                        <CardView
+                    <CardView
       items={items}
       activeColor='#000'
       imageHeight='500px'
