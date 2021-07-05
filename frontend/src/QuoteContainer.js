@@ -29,13 +29,13 @@ class QuoteContainer extends React.Component {
     this.shuffleQuotes(quotes)
   };
 
-  randomColor() {
-    const color = `rgb(
-      ${Math.floor(Math.random() * 155)},
-      ${Math.floor(Math.random() * 155)},
-      ${Math.floor(Math.random() * 155)})`;
-    return color;
-  }
+  // randomColor() {
+  //   const color = `rgb(
+  //     ${Math.floor(Math.random() * 155)},
+  //     ${Math.floor(Math.random() * 155)},
+  //     ${Math.floor(Math.random() * 155)})`;
+  //   return color;
+  // }
   
   render() {
     return (

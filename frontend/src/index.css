@@ -1,9 +1,9 @@
 
 
- @import url('https://fonts.googleapis.com/css?family=Didact+Gothic|IBM+Plex+Mono|Poppins');
+ @import url('https://fonts.googleapis.com/css2?family=Vollkorn+SC&display=swap');
 
 * {
-  font-family: 'Didact Gothic'
+ font-family: 'Vollkorn SC', serif;
 }
 
 body {
@@ -18,9 +18,9 @@ h2, input[name="title"], textarea {
 }
 
 p.instructions {
-	font-family: monospace;
-	font-size: 32px;
-	text-align: center;
+  font-family: monospace;
+  font-size: 32px;
+  text-align: center;
 }
 
 .note-editor input[name="title"] {
@@ -101,11 +101,11 @@ div.sidebar ul li:first-child {
   border-top: 1px solid grey;
 }
 
-div.sidebar ul li:hover {
-  /* background-color: yellow; */
+/* div.sidebar ul li:hover {
+  
   background-image: linear-gradient(#E6E6E6, #F7F7F7);
   background-repeat: no-repeat;
-}
+} */
 
 
 /* Layout Styles */
@@ -169,7 +169,7 @@ button, input[type="submit"] {
   border: 0px;
   background-image: linear-gradient(to right top, #8C33E3, #696CE8, #4A9EEC);
   background-repeat: no-repeat;
-  color: white;
+  /* color: white; */
   font-size: 14px;
   letter-spacing: 0.5px;
 }
@@ -181,4 +181,21 @@ button:hover, .nav-bar:hover, input[type="submit"]:hover {
 
 button:focus, input[type="submit"]:focus {
   outline: none;
+}
+
+._1-wtg {
+
+  background-color: #ffffff;
+  width: 1000px;
+  position: relative; right: 70%
+}
+
+.card-title {
+ background-color: #ffffff;
+  
+}
+
+.meeting-card-body {
+ background-color: #ffffff;
+  
 }
