@@ -165,7 +165,7 @@ main {
   justify-content: center;
   text-align: center;
   background-color: #ffffff;
-  margin-top: 25px;
+  margin-top: 33.5px;
 }
 
 h1 {
@@ -178,7 +178,7 @@ h1 {
 }
 .react-calendar {
   /* align-content: center; */
-  position: relative; left: 32.5%;
+  position: relative; left: 24.0%;
  
 
 
@@ -228,12 +228,24 @@ h1 {
 
 }
 
+#quote {
+  text-align: left; 
+}
+
+#author {
+  text-align: left;
+}
+
 .quotebox {
 
   
   font-size: small;
   background-color: #ffffff;
-  width: 1000px
+  width: 1000px;
+  height: 200px;
+  margin-left: 50px;
+  
+  
 
 }
 
@@ -249,19 +261,31 @@ h1 {
 .wrapper {
 
    background-color: #ffffff;
-   width: 100%;
+   
 }
 
 #root {
 
   background-color: #ffffff;
+  
+  margin-bottom: 100px;
+  margin-right: 100px;
+  margin-left: 200px;
 
+}
+body {
+
+  margin-left: 20px;
+  height: 200px;
+
+  background-color: #ffffff
 }
 
 #map {
 
   /* background-color: #E6E6E6; */
   position: relative; right: 10%;
+  margin-top: 20px
   
 }
 
@@ -275,14 +299,29 @@ div {
 
   margin-top: 5px;
   position: relative;
+  
 }
 
-/* .container {
-  background-color: #ffffff;
-} */
+.container {
+  /* background-color: #ffffff; */
+ position: relative; left: 5%
+}
 
 #gender {
   width: 200px;
   height: 25px;
   text-align: center;
+  margin-top: 20px;
+  position: relative; right: 10%
+
+}
+
+#newquote {
+position: relative; right: 18%
+
+}
+
+.ht-tm-header {
+
+  position:relative; right: 40px;
 }
