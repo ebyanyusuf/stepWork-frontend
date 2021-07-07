@@ -7,7 +7,7 @@ state = {
    oxfords: [],
    filteredOxfords: [],
    searchText: "", 
-   oxfordGender: ["Male", "Female"]
+   oxfordGender: ["Choose an Option", "Male", "Female"]
 }
  componentDidMount = async () => {
      

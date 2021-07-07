@@ -271,6 +271,7 @@ h1 {
   margin-bottom: 100px;
   margin-right: 100px;
   margin-left: 200px;
+  
 
 }
 body {
@@ -278,7 +279,8 @@ body {
   margin-left: 20px;
   height: 200px;
 
-  background-color: #ffffff
+  background-color: #ffffff;
+  
 }
 
 #map {
